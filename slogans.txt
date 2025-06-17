@@ -1,0 +1,9 @@
+Define one function per task.
+
+For every constant mentioned in a problem statement, introduce one
+constant definition.
+
+The template mirros the organization of sub-classes with a cond.
+
+If a function deals with nested structures, develop one function per level of nesting.
+

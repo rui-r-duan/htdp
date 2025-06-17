@@ -1,0 +1,12 @@
+* LOG PROCESSOR
+** input
+   - Akamai logs
+   - Load Balancer logs
+   - Istio logs
+   - AppDynamics logs
+   - etc.
+** output
+   - Prometheus metrics
+     - count{verb, endpoint, status_code, ...}
+     - latency{verb, endpoint, status_code, ...}
+   - database for API calls in BigQuery
